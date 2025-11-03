@@ -5,6 +5,7 @@ cimport numpy as np
 import numpy as np
 #from cython.parallel import prange
 
+#! Need to be modified for different crystal structures!
 neigh_dis=[sqrt(3/int(16)),sqrt(1/int(2)),sqrt(11/int(16)),1,sqrt(19/int(16))]
 
 cpdef tuple PSRO(str n_f,int N_species,int N_shell,int num_cell,str type_pair,str data_dir,str conc_Pb, list conc_Pb_list,list BC_AA_totlist, list BC_AB_totlist): #list is the return type
