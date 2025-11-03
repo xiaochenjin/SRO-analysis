@@ -1,0 +1,7 @@
+#computeSRO.pyx
+compute all independent averaged pSRO pairs (either A-A type or A-B type) of one configuration (p_totlist) to given number of shells
+
+#https://blog.paperspace.com/boosting-python-scripts-cython/
+python setup.py build_ext --inplace
+
+
