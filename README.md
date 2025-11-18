@@ -16,6 +16,9 @@ Compute ensemble-averaged SRO parameter
 # check-SRO.py
 Check if the SRO are computed correctly through checking wether A-A/B-B SRO parameters consistent with A-B SRO parameters
 
+# check-SRO-SiGeSn.py
+Check whether the SRO parameters are computed consistently (ternary system example) 
+
 # check-error.py
 Check if the average SRO parameter and SRO distribution are computed consistently.
 
